@@ -4018,5 +4018,6 @@ input, select, textarea {
 
 		.gallery {
 			margin: -1.25rem 0 0 -1.75rem;
+			width: calc(100% + -2.6rem);
 		}
 	}
