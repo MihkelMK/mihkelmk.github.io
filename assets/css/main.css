@@ -4021,3 +4021,16 @@ input, select, textarea {
 			width: calc(100% + -2.6rem);
 		}
 	}
+
+	.loadingText {
+		display: none;
+	}
+
+	body.is-preload .loadingText {
+		display: block;
+		margin: 10vh 0 0 3vw;
+	}
+
+	body #wrapper section.intro {
+		margin-top: 0;
+	}
